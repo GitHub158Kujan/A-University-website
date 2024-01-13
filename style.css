@@ -1,0 +1,309 @@
+*
+{
+	padding:0
+	margin:0;
+	box-sizing:border-box;
+}
+.header{
+	min-height:100vh;
+	width:100%;
+	background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(image.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+}
+
+.navigation ul
+{
+	list-style-type:none;
+	display:flex;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	position: relative;
+	top:-70px;
+
+
+}
+.navigation  ul li{
+	margin:0 2px;
+	position: relative;
+	left:390px;
+
+}
+.navigation li{
+	float:left;
+}
+ .navigation li a{
+	display:block;
+	text-decoration:none;
+	width:130px;
+	height:30px;
+	display:block;
+	text-align:center;
+	color:white;
+	font-size:18px;
+	font-family:sans-serif;
+	letter-spacing:1px;
+	text-transform:capitalize;
+	
+}
+.navigation ul li a{
+	position:relative;
+}
+	
+.navigation ul li :hover{
+	background-color:white;
+	color:black;
+	padding-top:7px;
+	text-align:center;
+	border-radius:4px;
+	font-size:14px;
+}
+
+select
+{
+	width:100px;
+	margin:10px;
+	position:relative;
+	left:395px;
+	top:-10px;
+	border:none;
+	background:transparent;
+	color:white;
+	font-family:sans-serif;
+	font-size:18px;
+	display:block;
+	padding-bottom:3px;
+}
+option
+{
+
+	font-family:sans-serif;	
+}
+select:hover{
+	border:none;
+	background-color:white;
+	color:black;
+	padding-top:7px;
+	border-radius:5px;
+	font-size:14px;
+	
+}
+input[type=text]{
+	position:relative;
+	left:150px;
+	top:-30px;:sans-serif;
+	padding:4px;
+	font-size:13px;
+	border-radius:20px;
+	width:230px;
+	border:none;
+
+}
+button{
+	position:relative;
+	left:116px;
+	top:-27px;
+	color:white;
+	border-radius:50%;
+	cursor:pointer;
+	padding:6px;
+	width:30px;
+	height:16px;
+	border:none;
+	background:transparent;
+	width:15px;
+	height:15px;
+}
+button img{
+	width:15px;
+	height:15px;
+}
+
+button:hover{
+	color:yellow;
+}
+h2{
+	font-family:serif;
+	font-size:30;
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+	position:relative;
+	bottom:-20px;
+	
+}
+h1{
+	font-family:arial black;
+	font-size:60px;
+	color:white;
+	text-transform:uppercase;
+	text-align:justify;
+	text-align:center;
+	line-height:1.8px;
+}
+hr{
+	color:white;
+	width:50%;
+	
+}
+h6
+{
+font-family:serif;
+font-size:15px;
+color:white;
+text-transform:uppercase;
+text-align:center;	
+line-height:1.8px;
+position:relative;
+top:-8px;
+}
+ .about h2{
+	font-family:sans-serif;
+	font-size:40;
+	color:black;
+	text-transform:capitalize;
+}
+.about p{
+	font-family:calibri;
+	font-size:15;
+	text-align:center;
+	color:black;	
+}
+.about img{
+	position:relative;
+	left:350px;
+}
+.col{
+background-color:#FF5733;
+border-radius:2px;
+}	
+.course h3
+{
+	font-family:sans-serif;
+	font-size:40;
+	color:black;
+	text-transform:capitalize;
+	text-align:center;
+}
+.row{
+	display:flex;
+	align-items:center;
+	width:100%;
+	justify-content:space-between;
+	float:left;
+}
+.row :: after
+{
+	content:'';
+	display:block;
+}
+
+.course .row{
+	margin-top:50px;
+}
+}
+.col img{
+	display:flex;
+	flex:33%;
+	float:left;
+	flex-direction:column;
+	align-items:center;
+	padding:2px;
+	margin-right:2px;
+}
+ .col h3{
+	font-family:calibri;
+	font-size:15;
+	text-align:center;;
+	text-transform:uppercase;
+	padding-top;2px;
+	color:white;
+}
+.head h4{
+	font-family:calibri;
+	font-size:40px;;
+	text-align:center;
+	text-transform:capitalize;
+	position:relative;
+	top:50px;
+} 
+	
+.head p
+{
+	font-family:calibri;
+	font-size:25px;
+	padding-left:50px;
+}
+.form{
+	padding-left:50px;
+}
+	.campus p{
+	font-family:calibri;
+	font-size:40px;;
+	text-align:center;
+	text-transform:capitalize;
+	position:relative;
+	top:30px; 
+	margin-bottom:50px;
+} 
+
+.endpage ul{
+	list-style-type:disc; 
+	padding-top:70px;
+}
+.rows{
+	display:flex;
+	align-items:center;
+	width:100%;
+	justify-content:space-between;
+	float:left;
+	background-color:#FF5733;
+}
+.cols li{
+	
+	color:black;
+	font-family: calibri;
+}
+.cols li a{
+	text-decoration:none;
+	color:black;
+}
+.cols h1{
+	font-family:calibri;
+	font-size:20px;
+	color:black;
+	text-align:left;
+}
+.r1{
+	display:flex;
+	align-items:center;
+	width:100%;
+	justify-content:space-between;
+	float:left;
+}
+.testimonial{
+	border:2px;
+}
+.t p{
+	font-family:calibri;
+	font-size:40px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.c1 img{
+	border-radius:100%;
+	position:relative;
+	left:70px;
+}
+.c1 p{
+	font-family:calibri;
+	font-size:12px;
+	text-align:center;
+	text-align:justify;
+	padding:20px 20px;
+}
+	
+
+	

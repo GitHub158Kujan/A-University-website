@@ -1,0 +1,62 @@
+
+*
+{
+	padding:0
+	margin:0;
+}
+body
+{
+	background-color:#FF5733;
+}
+.cont{
+	
+	width:80%;
+	font-family:calibri;
+	margin:10px auto;
+	font-size:14px;
+
+}
+.cont h2
+{
+	margin-bottom:-2px;
+	font-size:30px;
+}
+.contact-box{
+	background-color:white;
+	display:white;
+	display:flex;
+}
+.contact-left{
+flex:basis:60%;
+padding:30px 60px;
+}
+.contact-left h1{
+	margin-left:2px;
+}
+.right{
+flex:basis:40%;
+padding:40px;
+background-color:#FAD5A5;
+}
+h1{
+	margin-bottom:10px;
+}
+.container padding{
+	margin-bottom:40px;
+}
+.image img{
+	position:relative;
+	left:70%;
+	top:30%;
+	width:100px;
+}
+button{
+	background-color:#FF5733;
+	border:none;
+	border-radius:10%;
+}
+
+.right p,h1, a{
+	 margin-left:20px;;
+	font-family:calibri;
+}
